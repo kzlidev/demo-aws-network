@@ -6,7 +6,7 @@ provider "aws" {
       purpose   = "onboarding"
       ttl       = 3
       terraform = true
-      trigger = 3
+      trigger = 4
     }
   }
   region = "ap-southeast-1"
